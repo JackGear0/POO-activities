@@ -21,7 +21,7 @@ def Print_Table(n):
     print("Decimal\tOctal\tHexadecimal\tBinario\n"
           "-------\t------\t-----------\t-------\t")
     while n < 256:
-        print(Dec(n), Oct(n), Hex(n), Bin(n),)
+        print(Dec(n), Oct(n), Hex(n), Bin(n))
         n += 1
 
 
