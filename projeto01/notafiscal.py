@@ -44,7 +44,7 @@ class NotaFiscal():
         print("Cliente:  {}\tNome:  {} \nCNJP/CPF:{}".format(self._Id, self._cliente._nome, self._cliente._cnpjcpf))
         print("{}\nITENS\n{}".format('-' * 112,'-' * 112,))
         print("Seq  Descrição{:<10} QTD\tValor Unit{:<22}Preço\n{} {}    {}\t{} {:>29}".format('\t' * 6, ' ' ,'-' * 4, '-' * 51, '-' * 5, '-' * 10, '-' * 10))
-        for x in self._itens:
-            print("{:0>3}  {:<53}{:>5} \t {:>6.2f} {:>30.2f}".format(x.getSequencial(), x.getDescricao(), x.getQuantidade(), x.getValorUnitario(), x.getValorit()))
+        for a in self._itens:
+            print("{:0>3}  {:<53}{:>5} \t {:>6.2f} {:>30.2f}".format(a.getSequencial(), a.getDescricao(), a.getQuantidade(), a.getValorUnitario(), a.getValorit()))
         print('_' * 112)
         
