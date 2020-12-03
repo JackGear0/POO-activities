@@ -34,10 +34,7 @@ def main():
     nf.calcularNotaFiscal()
     
     nf.imprimirNotaFiscal()
-    print("{:0>3}  {}{:>47} \t {:>6.2f} {:>30.2f}".format(it1.getSequencial(), p1.getDescricao(), it1.getQuantidade(), p1.getValorUnitario(), it1.getValorit()))
-    print("{:0>3}  {}{:>43} \t {:>6.2f} {:>30.2f}".format(it2.getSequencial(), p2.getDescricao(), it2.getQuantidade(), p2.getValorUnitario(), it2.getValorit()))
-    print("{:0>3}  {}{:>41} \t {:>6.2f} {:>30.2f}".format(it3.getSequencial(), p3.getDescricao(), it3.getQuantidade(), p3.getValorUnitario(), it3.getValorit()))
-    nf.resto()
+
     print("Valor Nota Fiscal= "+ str(nf.valorNota))
 
 

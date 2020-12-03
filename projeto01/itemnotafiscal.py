@@ -22,6 +22,11 @@ class ItemNotaFiscal():
         self._valorUnitario=self._produto.getValorUnitario()
         self._valorItem=float(self._quantidade * self._valorUnitario)
       
+    def getDescricao(self):
+        return self._descricao
+    
+    def getValorUnitario(self):
+        return self._valorUnitario
 
     def getQuantidade(self):
         return self._quantidade
