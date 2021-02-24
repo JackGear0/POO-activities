@@ -31,9 +31,9 @@ class Ponto:
 class Quadrilátero:
     def __init__(self, P2, P1):
         self.P2 = P2 
-        #P1 eixo X
+        #P2 eixo X
         self.P1 = P1
-        #P2 eixo Y
+        #P1 eixo Y
      
     def contidoEmQ(self, ponto):
         if (self.P1 >= ponto.getY() > 0 ) & (self.P2 >= ponto.getX() > 0):
